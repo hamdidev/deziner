@@ -1,0 +1,14 @@
+:root {
+  --bg-color: #0f0f0f;
+  --white: #f8f8f8;
+  --bg-gray: rgb(39, 39, 39);
+  --link-blue: rgb(126, 162, 236);
+  --mobile-bg: rgb(15, 15, 15);
+  --bg-ligh-gray: rgba(39, 43, 45, 0.43);
+  --bg-red: #e6275c;
+  --bg-blue: rgb(26, 97, 233);
+  --bg-purple: #410fab;
+  --box-shdow: rgb(176 176 178 / 16%) 0px -5px 6px 0px inset,
+    rgb(0 0 0 / 24%) 4px 6px 11px 1px inset;
+  --m-bg: rgb(39, 43, 45);
+}

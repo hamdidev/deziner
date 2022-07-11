@@ -1,0 +1,33 @@
+@import url("../commons/styles/fonts/fonts.css");
+@import url("../commons/styles/variables.css");
+@import url("../components/Hero/hero.css");
+@import url("../components/Header/header.css");
+@import url("../components/Button/button.css");
+@import url("../commons/styles/commonStyles.css");
+@import url("../commons/styles/animation.css");
+@import url("../components/ProductShowcase/productshowcase.css");
+@import url("../components/Feelspecial/feelspecial.css");
+@import url("../components/Experience/experience.css");
+@import url("../components/Security/security.css");
+@import url("../components/Brands/brands.css");
+@import url("../components/Windowpeek/windowpeek.css");
+@import url("../components/Mobilescroll/mobilescroll.css");
+@import url("../components/Storyscreen/storyscreen.css");
+@import url("../components/Apprating/apprating.css");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Gilroy, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,56 @@
+.showcase {
+  width: 100vw;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png");
+  background-size: cover;
+  background-position: right top;
+}
+.showcase__wrapper {
+  min-height: 70%;
+}
+.showcase__ui {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.showcase__mockup-1 {
+  transform: translate(-160%, 25%);
+  z-index: 98;
+}
+.showcase__mockup-2 {
+  transform: translate(-105%, 15%);
+  z-index: 99;
+}
+.showcase__mockup-3 {
+  transform: translate(-50%, 5%);
+  z-index: 100;
+}
+.showcase__mockup-4 {
+  transform: translate(5%, 15%);
+  z-index: 99;
+}
+.showcase__mockup-5 {
+  transform: translate(60%, 25%);
+  z-index: 98;
+}
+
+@media screen and (max-width: 1279px) {
+  .showcase {
+    height: 620px;
+  }
+  .showcase__ui {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .showcase {
+    height: 450px;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg-mobile.png);
+  }
+  .showcase__ui {
+    width: 170px;
+  }
+}
